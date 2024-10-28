@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+git_source(:github) { |long-haul| "https://github.com/#{long-haul}" }
+
 gem "jekyll"
 gem "jekyll-paginate"
 gem "support-for"
